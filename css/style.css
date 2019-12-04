@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cute+Font&display=swap');
+
+body{
+	display: block;
+    margin: 0px;
+    background:#ddad22;
+}
+
+#cont{
+    position: absolute;
+    background:#ddad22;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#pannel1 {
+	position: relative;
+    float: left;
+    background:#b08a1b;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+}
+
+#pannel2 {
+	position:relative;
+	border: 0px auto;
+	justify-content: center;
+	align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;
+}
+
+#artic {
+	position: relative;
+	max-width: 95%;
+	margin-bottom: 20px;	
+}
+
+#menu { 
+	position: relative;
+    left: 50%;
+    width: -0.5px;
+    margin-left: -75px;
+    top: 35%;
+    height: -0.5px;
+    margin-top: -100px;
+}
+
+#item {
+	width: 250px;
+	height: 60px;
+	border: 3px solid transparent;
+	border-top:0;
+	border-left:0;
+	border-right:0;
+	border-image: linear-gradient(to left, #8da93f 0%, #ddad22 100%) 1;
+
+	text-decoration: none;
+	text-align: right;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	letter-spacing: 4px;
+	line-height: 5;
+	color: #ffffff;
+}
+
+#alerta{
+	color: #2a7aaf;
+}
+
+a,p{
+	margin-top: 5px;
+	text-decoration: none;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	letter-spacing: 4px;
+	color: #ffffff;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #967617;
+}
+
+h1{
+	font-size: 70px;
+	text-align: left;
+	font-family: 'Cute Font';
+	letter-spacing: 5px;
+	font-weight:bold;
+	color: #967617;
+}
+
+footer{
+	height: 50px;
+	background-color: #D2AD00;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+#centrado{
+	text-align:center;
+}
+
+p.ex1 {
+	max-width: 600px;
+	text-align: justify;
+}
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+input{
+	outline: none;
+	padding: 20px;
+	display: block;
+	width: 420px;
+	border-radius: 6px;
+	border: 1px solid #967617;
+	margin: 30px auto;
+}
+
+input[type="submit"]{
+	color: #ffffff;
+	background-color:  #967617;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover{
+	color: #ffffff;
+	background-color:  #B8911C;
+}
+
+@media (min-width: 500px)and (max-width: 1024px) {
+
+input{
+	font-size: 20pt
+}
+
+
+h1{
+	font-size: 120px;
+}
+
+a,p{
+
+	font-size: 25px;
+}
+
+
+
+}
